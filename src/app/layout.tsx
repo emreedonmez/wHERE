@@ -1,0 +1,22 @@
+import type { Metadata } from "next";
+
+import "leaflet/dist/leaflet.css";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "wHERE?",
+  description:
+    "wHERE? is a geography puzzle game where you guess the locations of cities in Turkey.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
