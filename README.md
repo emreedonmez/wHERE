@@ -1,6 +1,6 @@
 # Turkey Map Game
 
-#### Video Demo: [INSERT YOUTUBE URL HERE]
+#### Video Demo: [https://youtu.be/USf_qU853Pg]
 
 ## Description
 
